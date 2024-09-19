@@ -1,0 +1,11 @@
+insert into employee (id, employee_name, employee_email, employee_address,employee_phone, employee_salary) values (1,'Yaki', 'Yaki@geico.com','639 E 34 Ave Brookln, NY', '919-588-6312', 112000.00);
+
+insert into employee (id, employee_name, employee_email, employee_address,employee_phone, employee_salary ) values (2,'Mustang', 'David@geico.com', '225 Bowling Green st, Pembroke, NC', '621-588-2144', 125000.00);
+
+insert into employee (id, employee_name, employee_email, employee_address,employee_phone, employee_salary ) values (3,'Tope', 'Tope@geico.com', '8755 Landstrod Ave, Minneapolis, MN', '347-288-9713', 133000.00);
+
+insert into employee (id, employee_name, employee_email, employee_address,employee_phone, employee_salary ) values (4,'Henry', 'Henry@geico.com', '5247 trafalagr lane, Houston, TX', '319-357-4556', 112000.00);
+
+insert into employee (id, employee_name, employee_email, employee_address,employee_phone, employee_salary ) values (5,'Miyagi', 'Miyagi@geico.com', '881 West Bullevard, Queens, NY', '919-357-4556', 127000.00);
+
+select * from employee;

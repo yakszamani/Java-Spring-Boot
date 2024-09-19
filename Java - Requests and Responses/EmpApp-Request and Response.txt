@@ -1,0 +1,50 @@
+POST http://localhost:8080/projects/projectregistration/employee/1/Project/1 
+
+{
+  "name": "Building an application",
+  "cost": 2000.0
+}
+
+GET http://localhost:8080/projects/allprojects
+
+GET http://localhost:8080/EmployeeList
+
+GET http://localhost:8080/userstory/allemployeeswithuserstories
+
+GET http://localhost:8080/projects/2
+
+POST http://localhost:8080/registerEmployee
+{
+    "employeeName": "j",
+    "employeeEmail": "corp.com",
+    "enrollDate":"2021-12-31T15:53:16",
+    "activeEnrollment": true
+}
+
+POST http://localhost:8080/userstory/saveemployeeanduserstory
+
+{
+    "employeeName": "Rado",
+    "employeeEmail": "Rado@corp.com",
+    "enrollDate":"2022-12-31T15:53:16",
+    "activeEnrollment": true,
+    "userStories":[
+        {"title":"Create React project Rado"},
+        {"title":"Create Spring boot project Rado"}
+    ]
+}
+
+POST http://localhost:8080/projects/saveprojects
+{
+  "name": "Building an application",
+  "cost": 2000.0
+}
+
+
+POST http://localhost:8080/userstory/setuserstoryforemployee?id=1&userstory=Springboot 
+{
+    "empoloyeeName": "james",
+    "userstories":[
+        {"title":"Create Spring boot project Rado"}
+    ]
+}
